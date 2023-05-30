@@ -1,0 +1,30 @@
+@import "./desing/_section_title.scss";
+@import "./desing/_header.scss";
+@import"./desing/_unique.scss";
+@import"./desing/_about_product.scss";
+@import"./desing/_partners.scss";
+@import"./desing/_partner_programm.scss";
+@import"./desing/_footer.scss";
+@import"./desing/_fonts.scss";
+
+body {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    position: relative;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding:0px;
+    scroll-behavior: smooth;
+    max-width: 1680px;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    scroll-behavior: smooth;
+}

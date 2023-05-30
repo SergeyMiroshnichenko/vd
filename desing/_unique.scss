@@ -1,0 +1,85 @@
+.unique {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 160px;
+    @media(max-width:1350px) {
+        margin-top: -100px;;
+     } 
+     @media(max-width:1250px) {
+        margin-top: -150px;;
+     } 
+    @media(max-width:1120px) {
+        margin-top: -300px;;
+     } 
+    .container {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        @media(max-width:860px) {
+            width: 90%;
+         } 
+        .product {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+         
+            .line_double {
+               text-align: center;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin-bottom: 10px;
+               .one{
+                    background-color: white;
+                    width: 25%;
+                    height: 1px;
+                 
+                    @media(max-width:1120px) {
+                        width: 41%;
+                     } 
+               }
+               .logo {
+                    padding: 0px 5px;     
+               }
+              
+            }
+            .wrapper_two {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .two {
+                background-color: white;
+                width: 52%;
+                height: 1px;
+                margin-bottom: 30px;
+                text-align: center;
+                @media(max-width:1120px) {
+                    width: 86%;
+                 } 
+            }
+            .wrapper_text {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 15px;
+            }
+            .uniqu_text {
+                width: 51%;
+                text-align: center;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                color: #C6C6C6;
+                margin-bottom: 10px;
+                @media(max-width:1120px) {
+                    width: 72%;
+                 } 
+            }
+        }
+    }
+}
